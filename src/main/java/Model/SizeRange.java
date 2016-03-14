@@ -24,7 +24,7 @@ public class SizeRange {
      * @return very small value
      */
     public double getVerySmall() {
-        return verySmall;
+        return Math.pow(Math.E, (this.average - (2 * this.getStandardDeviation())));
     }
 
     /**
@@ -41,7 +41,7 @@ public class SizeRange {
      * @return small value
      */
     public double getSmall() {
-        return small;
+        return Math.pow(Math.E, (this.average - this.getStandardDeviation()));
     }
 
     /**
@@ -59,7 +59,7 @@ public class SizeRange {
      * @return
      */
     public double getMedium() {
-        return medium;
+        return Math.pow(Math.E, this.average);
     }
 
     /**
@@ -77,7 +77,7 @@ public class SizeRange {
      * @return
      */
     public double getLarge() {
-        return large;
+        return Math.pow(Math.E, (this.average + this.getStandardDeviation()));
     }
 
     /**
@@ -95,7 +95,7 @@ public class SizeRange {
      * @return
      */
     public double getVeryLarge() {
-        return veryLarge;
+        return Math.pow(Math.E, (this.average + (2 * this.getStandardDeviation())));
     }
 
     /**
@@ -148,6 +148,6 @@ public class SizeRange {
      * @return
      */
     public double getStandardDeviation() {
-        return 0.0;
+        return Math.sqrt(this.variance);
     }
 }

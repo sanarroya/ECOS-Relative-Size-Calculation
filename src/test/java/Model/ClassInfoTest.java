@@ -40,69 +40,69 @@ public class ClassInfoTest {
     /**
      * Test of getLoc method, of class ClassInfo.
      */
-    @Test
-    public void testGetLoc() {
-        System.out.println("getLoc");
-        ClassInfo instance = new ClassInfo();
-        double expResult = 0.0;
-        double result = instance.getLoc();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setLoc method, of class ClassInfo.
-     */
-    @Test
-    public void testSetLoc() {
-        System.out.println("setLoc");
-        double loc = 0.0;
-        ClassInfo instance = new ClassInfo();
-        instance.setLoc(loc);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getNumberOfMethods method, of class ClassInfo.
-     */
-    @Test
-    public void testGetNumberOfMethods() {
-        System.out.println("getNumberOfMethods");
-        ClassInfo instance = new ClassInfo();
-        double expResult = 0.0;
-        double result = instance.getNumberOfMethods();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setNumberOfMethods method, of class ClassInfo.
-     */
-    @Test
-    public void testSetNumberOfMethods() {
-        System.out.println("setNumberOfMethods");
-        double numberOfMethods = 0.0;
-        ClassInfo instance = new ClassInfo();
-        instance.setNumberOfMethods(numberOfMethods);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of naturalLogarithmOfLocPerMethod method, of class ClassInfo.
-     */
-    @Test
-    public void testNaturalLogarithmOfLocPerMethod() {
-        System.out.println("naturalLogarithmOfLocPerMethod");
-        ClassInfo instance = new ClassInfo();
-        double expResult = 0.0;
-        double result = instance.naturalLogarithmOfLocPerMethod();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+//    @Test
+//    public void testGetLoc() {
+//        System.out.println("getLoc");
+//        ClassInfo instance = new ClassInfo();
+//        double expResult = 0.0;
+//        double result = instance.getLoc();
+//        assertEquals(expResult, result, 0.0);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
+//
+//    /**
+//     * Test of setLoc method, of class ClassInfo.
+//     */
+//    @Test
+//    public void testSetLoc() {
+//        System.out.println("setLoc");
+//        double loc = 0.0;
+//        ClassInfo instance = new ClassInfo();
+//        instance.setLoc(loc);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
+//
+//    /**
+//     * Test of getNumberOfMethods method, of class ClassInfo.
+//     */
+//    @Test
+//    public void testGetNumberOfMethods() {
+//        System.out.println("getNumberOfMethods");
+//        ClassInfo instance = new ClassInfo();
+//        double expResult = 0.0;
+//        double result = instance.getNumberOfMethods();
+//        assertEquals(expResult, result, 0.0);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
+//
+//    /**
+//     * Test of setNumberOfMethods method, of class ClassInfo.
+//     */
+//    @Test
+//    public void testSetNumberOfMethods() {
+//        System.out.println("setNumberOfMethods");
+//        double numberOfMethods = 0.0;
+//        ClassInfo instance = new ClassInfo();
+//        instance.setNumberOfMethods(numberOfMethods);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
+//
+//    /**
+//     * Test of naturalLogarithmOfLocPerMethod method, of class ClassInfo.
+//     */
+//    @Test
+//    public void testNaturalLogarithmOfLocPerMethod() {
+//        System.out.println("naturalLogarithmOfLocPerMethod");
+//        ClassInfo instance = new ClassInfo();
+//        double expResult = 0.0;
+//        double result = instance.naturalLogarithmOfLocPerMethod();
+//        assertEquals(expResult, result, 0.0);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
     
 }

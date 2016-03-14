@@ -41,29 +41,29 @@ public class CalculationManagerTest {
     /**
      * Test of average method, of class CalculationManager.
      */
-    @Test
-    public void testAverage() {
-        System.out.println("average");
-        List<ClassInfo> classInfoList = null;
-        double expResult = 0.0;
-        double result = CalculationManager.average(classInfoList);
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of variance method, of class CalculationManager.
-     */
-    @Test
-    public void testVariance() {
-        System.out.println("variance");
-        List<ClassInfo> classInfoList = null;
-        double expResult = 0.0;
-        double result = CalculationManager.variance(classInfoList);
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+//    @Test
+//    public void testAverage() {
+//        System.out.println("average");
+//        List<ClassInfo> classInfoList = null;
+//        double expResult = 0.0;
+//        double result = CalculationManager.average(classInfoList);
+//        assertEquals(expResult, result, 0.0);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
+//
+//    /**
+//     * Test of variance method, of class CalculationManager.
+//     */
+//    @Test
+//    public void testVariance() {
+//        System.out.println("variance");
+//        List<ClassInfo> classInfoList = null;
+//        double expResult = 0.0;
+//        double result = CalculationManager.variance(classInfoList);
+//        assertEquals(expResult, result, 0.0);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
     
 }

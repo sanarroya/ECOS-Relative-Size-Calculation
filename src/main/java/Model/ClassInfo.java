@@ -11,6 +11,7 @@ package Model;
  */
 public class ClassInfo {
     
+    private String className;
     private double loc;
     private double numberOfMethods;
 
@@ -23,13 +24,34 @@ public class ClassInfo {
     /**
      *Constructor of the class 
      * 
+     * @param className name of the class
      * @param loc number of lines of code
      * @param numberOfMethods number of methods per class
      */
-    public ClassInfo(double loc, double numberOfMethods) {
+    public ClassInfo(String className, double loc, double numberOfMethods) {
+        this.className = className;
         this.loc = loc;
         this.numberOfMethods = numberOfMethods;
     }
+
+    /**
+     *ClassName attribute getter
+     * 
+     * @return class name
+     */
+    public String getClassName() {
+        return className;
+    }
+    
+    /**
+     *ClassName attribute setter
+     * 
+     * @param className
+     */
+    public void setClassName(String className) {
+        this.className = className;
+    }
+    
     
     /**
      *loc attribute getter

@@ -40,8 +40,9 @@ public class LoadData {
                 if(stringTokenized.hasMoreTokens()) {
                     ClassInfo classInfo = new ClassInfo();
                     String[] stringsInLine = stringTokenized.nextToken().split(",");
-                    classInfo.setLoc(Double.parseDouble(stringsInLine[0]));
-                    classInfo.setNumberOfMethods(Double.parseDouble(stringsInLine[1]));
+                    classInfo.setClassName(stringsInLine[0]);
+                    classInfo.setLoc(Double.parseDouble(stringsInLine[1]));
+                    classInfo.setNumberOfMethods(Double.parseDouble(stringsInLine[2]));
                     dataList.add(classInfo);
                 }
             }

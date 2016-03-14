@@ -5,6 +5,7 @@
  */
 package Model;
 
+import java.util.ArrayList;
 import java.util.List;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -41,15 +42,35 @@ public class LoadDataTest {
     /**
      * Test of loadDataFromFile method, of class LoadData.
      */
-    @Test
-    public void testLoadDataFromFile() {
-        System.out.println("loadDataFromFile");
-        String fileName = "";
-        List<ClassInfo> expResult = null;
-        List<ClassInfo> result = LoadData.loadDataFromFile(fileName);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+//    @Test
+//    public void testLoadDataFromFile() {
+//        System.out.println("loadDataFromFile");
+//        String fileName = "dataset2.txt";
+//        List<ClassInfo> expResult = new ArrayList<ClassInfo>();
+//        expResult.add(new ClassInfo(7.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(10.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(10.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        expResult.add(new ClassInfo(8.0,1.0));
+//        expResult.add(new ClassInfo(8.0,1.0));
+//        expResult.add(new ClassInfo(8.0,1.0));
+//        expResult.add(new ClassInfo(20.0,1.0));
+//        expResult.add(new ClassInfo(14.0,1.0));
+//        expResult.add(new ClassInfo(18.0,1.0));
+//        expResult.add(new ClassInfo(12.0,1.0));
+//        List<ClassInfo> result = LoadData.loadDataFromFile(fileName);
+//        System.out.println(expResult.get(1).getNumberOfMethods());
+//        System.out.println(result.get(1).getNumberOfMethods());
+//        System.out.println(expResult.hashCode());
+//        System.out.println(result.hashCode());
+//        System.out.println(result.equals(expResult));
+//        assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//    }
     
 }

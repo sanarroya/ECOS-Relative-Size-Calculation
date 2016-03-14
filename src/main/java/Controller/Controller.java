@@ -5,10 +5,26 @@
  */
 package Controller;
 
+import Model.CalculationManager;
+import Model.ClassInfo;
+import Model.LoadData;
+import Model.SizeRange;
+import java.util.List;
+
 /**
  *
  * @author SantiagoAvila
  */
 public class Controller {
     
+    public List<ClassInfo> loadClassInfo(String fileName) {
+        return LoadData.loadDataFromFile(fileName);
+    }
+    
+    public SizeRange calculateSizeRange(List<ClassInfo> classInfoList) {
+        SizeRange sizeRange = new SizeRange();
+        sizeRange.setAverage(CalculationManager.average(classInfoList));
+        sizeRange.setVariance(CalculationManager.variance(classInfoList));
+        return sizeRange;
+    }
 }

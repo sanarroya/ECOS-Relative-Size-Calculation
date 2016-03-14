@@ -19,7 +19,13 @@ public class CalculationManager {
      * @return Average of the data set
      */
     public static double average(List<ClassInfo> classInfoList) {
-        return 0.0;
+        double sum = 0.0;
+        for(ClassInfo element : classInfoList) {
+            sum += element.naturalLogarithmOfLocPerMethod();
+        }
+        double listSize = (double)classInfoList.size();
+        double average = sum / listSize;
+        return average;
     }
     
     /**
@@ -28,6 +34,13 @@ public class CalculationManager {
      * @return variance of the data set
      */
     public static double variance(List<ClassInfo> classInfoList) {
-        return 0.0;
+        double sum = 0.0;
+        double average = average(classInfoList);
+        for(ClassInfo element : classInfoList) {
+            sum += Math.pow((element.naturalLogarithmOfLocPerMethod() - average), 2.0);
+        }
+        double listSize = (double)classInfoList.size();
+        double variance = sum / (listSize - 1);
+        return variance;
     }
 }
