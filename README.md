@@ -1,20 +1,16 @@
-# java-getting-started
+# Relative Size Calculation
 
-A barebones Java app, which can easily be deployed to Heroku.
-
-This application support the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Program to calculate relative size ranges for very small, small, medium, large, and very large ranges using standard deviation.
 
 ## Running Locally
 
 Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ foreman start web
+$ git clone https://github.com/sanarroya/ECOS-Relative-Size-Calculation.git
+$ cd Tarea4
+$ mvn clean install
+$ heroku local web
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
@@ -25,16 +21,8 @@ If you're going to use a database, ensure you have a local `.env` file that read
 DATABASE_URL=postgres://localhost:5432/java_database_name
 ```
 
-## Deploying to Heroku
+## Heroku
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+To access the application on heroku go to the following link:
 
-## Documentation
-
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+- [Relative size calculation](https://hidden-brook-36984.herokuapp.com/)
