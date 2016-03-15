@@ -26,7 +26,7 @@ public class Main {
 
     get("/hello", (req, res) -> "Hello World");
     
-    get("/calculateValues", (req, res) -> {
+    get("/calculateRelativeSizeValues", (req, res) -> {
         
         final String FILE_NAME_1 = "dataset1.txt";
         final String FILE_NAME_2 = "dataset2.txt";
