@@ -8,7 +8,7 @@ Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt
 
 ```sh
 $ git clone https://github.com/sanarroya/ECOS-Relative-Size-Calculation.git
-$ cd Tarea4
+$ cd ECOS-Relative-Size-Calculation
 $ mvn clean install
 $ heroku local web
 ```
