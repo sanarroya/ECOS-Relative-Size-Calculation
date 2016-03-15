@@ -25,4 +25,4 @@ DATABASE_URL=postgres://localhost:5432/java_database_name
 
 To access the application on heroku go to the following link:
 
-- [Relative size calculation](https://hidden-brook-36984.herokuapp.com/)
+- [Relative size calculation](https://hidden-brook-36984.herokuapp.com/calculateValues)

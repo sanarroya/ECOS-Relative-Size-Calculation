@@ -5,6 +5,7 @@
  */
 package Model;
 
+import java.util.List;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -40,204 +41,117 @@ public class SizeRangeTest {
     /**
      * Test of getVerySmall method, of class SizeRange.
      */
-//    @Test
-//    public void testGetVerySmall() {
-//        System.out.println("getVerySmall");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getVerySmall();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setVerySmall method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetVerySmall() {
-//        System.out.println("setVerySmall");
-//        double verySmall = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setVerySmall(verySmall);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getSmall method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetSmall() {
-//        System.out.println("getSmall");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getSmall();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setSmall method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetSmall() {
-//        System.out.println("setSmall");
-//        double small = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setSmall(small);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getMedium method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetMedium() {
-//        System.out.println("getMedium");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getMedium();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setMedium method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetMedium() {
-//        System.out.println("setMedium");
-//        double medium = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setMedium(medium);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getLarge method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetLarge() {
-//        System.out.println("getLarge");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getLarge();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setLarge method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetLarge() {
-//        System.out.println("setLarge");
-//        double large = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setLarge(large);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getVeryLarge method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetVeryLarge() {
-//        System.out.println("getVeryLarge");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getVeryLarge();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setVeryLarge method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetVeryLarge() {
-//        System.out.println("setVeryLarge");
-//        double veryLarge = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setVeryLarge(veryLarge);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getAverage method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetAverage() {
-//        System.out.println("getAverage");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getAverage();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setAverage method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetAverage() {
-//        System.out.println("setAverage");
-//        double average = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setAverage(average);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getVariance method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetVariance() {
-//        System.out.println("getVariance");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getVariance();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of setVariance method, of class SizeRange.
-//     */
-//    @Test
-//    public void testSetVariance() {
-//        System.out.println("setVariance");
-//        double variance = 0.0;
-//        SizeRange instance = new SizeRange();
-//        instance.setVariance(variance);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
-//    /**
-//     * Test of getStandardDeviation method, of class SizeRange.
-//     */
-//    @Test
-//    public void testGetStandardDeviation() {
-//        System.out.println("getStandardDeviation");
-//        SizeRange instance = new SizeRange();
-//        double expResult = 0.0;
-//        double result = instance.getStandardDeviation();
-//        assertEquals(expResult, result, 0.0);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
+    @Test
+    public void testGetVerySmall() {
+        System.out.println("getVerySmall");
+        SizeRange instance = new SizeRange();
+        instance.setVariance(0.0820);
+        instance.setAverage(2.4193);
+        double expResult = 6.3375;
+        double result = instance.getVerySmall();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getSmall method, of class SizeRange.
+     */
+    @Test
+    public void testGetSmall() {
+        System.out.println("getSmall");
+        SizeRange instance = new SizeRange();
+        instance.setVariance(0.0820);
+        instance.setAverage(2.4193);
+        double expResult = 8.4393;
+        double result = instance.getSmall();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getMedium method, of class SizeRange.
+     */
+    @Test
+    public void testGetMedium() {
+        System.out.println("getMedium");
+        SizeRange instance = new SizeRange();
+        instance.setVariance(0.0820);
+        instance.setAverage(2.4193);
+        double expResult = 11.2381;
+        double result = instance.getMedium();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getLarge method, of class SizeRange.
+     */
+    @Test
+    public void testGetLarge() {
+        System.out.println("getLarge");
+        SizeRange instance = new SizeRange();
+        instance.setVariance(0.0820);
+        instance.setAverage(2.4193);
+        double expResult = 14.9650;
+        double result = instance.getLarge();
+        assertEquals(expResult, result, 1.0);   
+    }
+
+    /**
+     * Test of getVeryLarge method, of class SizeRange.
+     */
+    @Test
+    public void testGetVeryLarge() {
+        System.out.println("getVeryLarge");
+        SizeRange instance = new SizeRange();
+        instance.setVariance(0.0820);
+        instance.setAverage(2.4193);
+        double expResult = 19.9280;
+        double result = instance.getVeryLarge();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getAverage method, of class SizeRange.
+     */
+    @Test
+    public void testGetAverage() {
+        System.out.println("getAverage");
+        String fileName = "dataset2.txt";
+        List<ClassInfo> list = LoadData.loadDataFromFile(fileName);
+        SizeRange instance = new SizeRange();
+        instance.setAverage(CalculationManager.average(list));
+        double expResult = 2.4193;
+        double result = instance.getAverage();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getVariance method, of class SizeRange.
+     */
+    @Test
+    public void testGetVariance() {
+        System.out.println("getVariance");
+        String fileName = "dataset2.txt";
+        List<ClassInfo> list = LoadData.loadDataFromFile(fileName);
+        SizeRange instance = new SizeRange();
+        instance.setVariance(CalculationManager.variance(list));
+        double expResult = 0.0820;
+        double result = instance.getVariance();
+        assertEquals(expResult, result, 1.0);
+    }
+
+    /**
+     * Test of getStandardDeviation method, of class SizeRange.
+     */
+    @Test
+    public void testGetStandardDeviation() {
+        System.out.println("getStandardDeviation");
+        String fileName = "dataset2.txt";
+        List<ClassInfo> list = LoadData.loadDataFromFile(fileName);
+        SizeRange instance = new SizeRange();
+        instance.setVariance(CalculationManager.variance(list));
+        double expResult = 0.0;
+        double result = instance.getStandardDeviation();
+        assertEquals(expResult, result, 1.0);
+        // TODO review the generated test code and remove the default call to fail.
+    }
     
 }
